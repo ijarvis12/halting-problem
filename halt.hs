@@ -14,7 +14,7 @@ main = do
   putStrLn ""
   putStrLn "-------------------------------------------------------"
   putStrLn "-- Function f(x) predicts what function g(x) will do --"
-  putStrLn "-- given f(g(x))and then g(x) does the opposite.     --"
+  putStrLn "-- given f(g(x)) and then g(x) does the opposite.    --"
   putStrLn "-------------------------------------------------------"
   putStrLn ""
 --First input
