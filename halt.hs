@@ -1,14 +1,15 @@
 #!/usr/bin/env runhaskell
 
 --function f
-f True = g True
-f False = g False
+f :: Bool -> Bool
+f x = g x
 
 --function g
-g True = False
-g False = True
+g :: Bool -> Bool
+g x = not x
 
 --main function
+main :: IO ()
 main = do
 --Preamble
   putStrLn ""
